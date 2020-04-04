@@ -15,7 +15,7 @@ Demo iOS project to learn and implemet how to install and setup swiftlint in an 
 
 
 ## Screenshots
-![Swiftlint code style violation examples](./img/Home_Screen_Light.png?raw=true "1. Swiftlint code style violation examples")
+![Swiftlint code style violation examples](./img/Swiftlint_code_stye_violation_examples.png?raw=true "1. Swiftlint code style violation examples")
 
 ## Technologies
 * Platform iOS, iPadOS, macOS
