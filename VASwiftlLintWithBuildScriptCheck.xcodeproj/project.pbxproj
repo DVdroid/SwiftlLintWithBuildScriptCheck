@@ -323,7 +323,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.va.VASwiftlLintWithBuildScriptCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFTLINT_CHECK_SCRIPT_FILE_PATH = "/Users/vikashanand/Desktop/VASwiftlLintWithBuildScriptCheck/VASwiftlLintWithBuildScriptCheck/build-phase/Script.sh";
+				SWIFTLINT_CHECK_SCRIPT_FILE_PATH = "${PROJECT_DIR}/VASwiftlLintWithBuildScriptCheck/build-phase/Script.sh";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,7 +342,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.va.VASwiftlLintWithBuildScriptCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFTLINT_CHECK_SCRIPT_FILE_PATH = "/Users/vikashanand/Desktop/VASwiftlLintWithBuildScriptCheck/VASwiftlLintWithBuildScriptCheck/build-phase/Script.sh";
+				SWIFTLINT_CHECK_SCRIPT_FILE_PATH = "${PROJECT_DIR}/VASwiftlLintWithBuildScriptCheck/build-phase/Script.sh";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
