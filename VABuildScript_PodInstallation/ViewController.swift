@@ -12,6 +12,29 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        guard let url = URL(string: "https://www.google.com") else { return }
+        print(url)
+
+        let aName :String = "Vikash"
+
+        //swiftlint:disable colon
+        let bName :String = "Anand"
+
+        print(aName, bName)
+
+        let marks1 = NSNumber(value: 45) as! Int
+        print(marks1)
+
+        //swiftlint:disable:next force_cast
+        let marks2 = NSNumber(value: 54) as! Int
+        print(marks2)
+
+        let marks3 = NSNumber(value: 54) as! Int //swiftlint:disable:this force_cast
+        print(marks3)
+
+        let marks4 = NSNumber(value: 54) as! Int
+        //swiftlint:disable:previous force_cast
+        print(marks4)
     }
 }
