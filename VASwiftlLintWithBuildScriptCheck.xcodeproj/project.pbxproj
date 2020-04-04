@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D615F7F6243635630033C7F5 /* VABuildScript_PodInstallation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VABuildScript_PodInstallation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D615F7F6243635630033C7F5 /* VASwiftlLintWithBuildScriptCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VASwiftlLintWithBuildScriptCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D615F7F9243635630033C7F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D615F7FD243635630033C7F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D615F800243635630033C7F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				D615F812243641EC0033C7F5 /* .swiftlint.yml */,
-				D615F7F8243635630033C7F5 /* VABuildScript_PodInstallation */,
+				D615F7F8243635630033C7F5 /* VASwiftlLintWithBuildScriptCheck */,
 				D615F7F7243635630033C7F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,12 +49,12 @@
 		D615F7F7243635630033C7F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D615F7F6243635630033C7F5 /* VABuildScript_PodInstallation.app */,
+				D615F7F6243635630033C7F5 /* VASwiftlLintWithBuildScriptCheck.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D615F7F8243635630033C7F5 /* VABuildScript_PodInstallation */ = {
+		D615F7F8243635630033C7F5 /* VASwiftlLintWithBuildScriptCheck */ = {
 			isa = PBXGroup;
 			children = (
 				D615F80F2436390F0033C7F5 /* build-phase */,
@@ -65,7 +65,7 @@
 				D615F804243635640033C7F5 /* LaunchScreen.storyboard */,
 				D615F807243635640033C7F5 /* Info.plist */,
 			);
-			path = VABuildScript_PodInstallation;
+			path = VASwiftlLintWithBuildScriptCheck;
 			sourceTree = "<group>";
 		};
 		D615F80F2436390F0033C7F5 /* build-phase */ = {
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D615F7F5243635630033C7F5 /* VABuildScript_PodInstallation */ = {
+		D615F7F5243635630033C7F5 /* VASwiftlLintWithBuildScriptCheck */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D615F80A243635640033C7F5 /* Build configuration list for PBXNativeTarget "VABuildScript_PodInstallation" */;
+			buildConfigurationList = D615F80A243635640033C7F5 /* Build configuration list for PBXNativeTarget "VASwiftlLintWithBuildScriptCheck" */;
 			buildPhases = (
 				D615F7F2243635630033C7F5 /* Sources */,
 				D615F7F3243635630033C7F5 /* Frameworks */,
@@ -92,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = VABuildScript_PodInstallation;
+			name = VASwiftlLintWithBuildScriptCheck;
 			productName = VABuildScript_PodInstallation;
-			productReference = D615F7F6243635630033C7F5 /* VABuildScript_PodInstallation.app */;
+			productReference = D615F7F6243635630033C7F5 /* VASwiftlLintWithBuildScriptCheck.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D615F7F1243635630033C7F5 /* Build configuration list for PBXProject "VABuildScript_PodInstallation" */;
+			buildConfigurationList = D615F7F1243635630033C7F5 /* Build configuration list for PBXProject "VASwiftlLintWithBuildScriptCheck" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D615F7F5243635630033C7F5 /* VABuildScript_PodInstallation */,
+				D615F7F5243635630033C7F5 /* VASwiftlLintWithBuildScriptCheck */,
 			);
 		};
 /* End PBXProject section */
@@ -316,14 +316,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6LN4XWA2V;
-				INFOPLIST_FILE = VABuildScript_PodInstallation/Info.plist;
+				INFOPLIST_FILE = VASwiftlLintWithBuildScriptCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.va.VABuildScript-PodInstallation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.va.VASwiftlLintWithBuildScriptCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFTLINT_CHECK_SCRIPT_FILE_PATH = "/Users/vikashanand/Desktop/VABuildScript_PodInstallation/VABuildScript_PodInstallation/build-phase/Script.sh";
+				SWIFTLINT_CHECK_SCRIPT_FILE_PATH = "/Users/vikashanand/Desktop/VASwiftlLintWithBuildScriptCheck/VASwiftlLintWithBuildScriptCheck/build-phase/Script.sh";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -335,14 +335,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6LN4XWA2V;
-				INFOPLIST_FILE = VABuildScript_PodInstallation/Info.plist;
+				INFOPLIST_FILE = VASwiftlLintWithBuildScriptCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.va.VABuildScript-PodInstallation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.va.VASwiftlLintWithBuildScriptCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFTLINT_CHECK_SCRIPT_FILE_PATH = "/Users/vikashanand/Desktop/VABuildScript_PodInstallation/VABuildScript_PodInstallation/build-phase/Script.sh";
+				SWIFTLINT_CHECK_SCRIPT_FILE_PATH = "/Users/vikashanand/Desktop/VASwiftlLintWithBuildScriptCheck/VASwiftlLintWithBuildScriptCheck/build-phase/Script.sh";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -351,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D615F7F1243635630033C7F5 /* Build configuration list for PBXProject "VABuildScript_PodInstallation" */ = {
+		D615F7F1243635630033C7F5 /* Build configuration list for PBXProject "VASwiftlLintWithBuildScriptCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D615F808243635640033C7F5 /* Debug */,
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D615F80A243635640033C7F5 /* Build configuration list for PBXNativeTarget "VABuildScript_PodInstallation" */ = {
+		D615F80A243635640033C7F5 /* Build configuration list for PBXNativeTarget "VASwiftlLintWithBuildScriptCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D615F80B243635640033C7F5 /* Debug */,

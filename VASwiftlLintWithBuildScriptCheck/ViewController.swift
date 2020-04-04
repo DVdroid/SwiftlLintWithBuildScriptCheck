@@ -20,8 +20,11 @@ class ViewController: UIViewController {
 
         //swiftlint:disable colon
         let bName :String = "Anand"
+        //swiftlint:enable colon
 
-        print(aName, bName)
+        let cName :String = "VA"
+
+        print(aName, bName, cName)
 
         let marks1 = NSNumber(value: 45) as! Int
         print(marks1)
