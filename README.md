@@ -11,7 +11,7 @@
 * [Contact](#contact)
 
 ## General info
-Demo iOS project to learn and implemet how to install and setup swiftlint in an xcode. This sample project uses a script to check if swiftlint is installed or not at build time and give warning / error accordingly. Also it checks for other coding style violations that are not according to the swiftlint rules or the custom rules declared in the  configuration file (.swiftlint.yml) / or  in the xcode's file / files.
+Demo iOS project to learn and implement, how to install and setup swiftlint in xcode. This sample project uses a script to check if swiftlint is installed or not at build time and give warning / error accordingly. Also it checks for other coding style violations of the code base that are not according to the swiftlint rules or the custom rules declared in the  configuration file (.swiftlint.yml) / or  explicitly declared in the xcode's file / files.
 
 
 ## Screenshots
