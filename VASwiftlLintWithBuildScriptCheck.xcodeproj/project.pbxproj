@@ -160,7 +160,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${SWIFTLINT_CHECK_SCRIPT_FILE_PATH}\n";
+			shellScript = "$SWIFTLINT_CHECK_SCRIPT_FILE_PATH\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
